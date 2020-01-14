@@ -1,0 +1,28 @@
+body {
+    background-image: url(mikkel-bech-yjAFnkLtKY0-unsplash.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+html {
+    height: 100%;
+}
+
+#mainNavbar .nav-item:hover {
+    color: green;
+}
+
+#mainNavbar .active {
+    color: green;
+}
+
+#mainNavbar .btn {
+    background-color: green;
+    outline: none;
+    color: white;
+}
+
+/* #mainNavbar .btn:hover {
+    color: 
+} */
