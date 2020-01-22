@@ -10,7 +10,24 @@ body {
 html {
     height: 100%;
 }
+h1 {
+    color: white;
+    margin-top: 125px;
+}
 
+.child-span {
+    color: green;
+}
+
+
+p {
+    color: #a5a5a5;
+    font-size: small;
+}
+
+.btn {
+    font-weight: bold;
+}
 #mainNavbar .nav-item:hover {
     color: green;
 }
@@ -24,7 +41,3 @@ html {
     outline: none;
     color: white;
 }
-
-/* #mainNavbar .btn:hover {
-    color: 
-} */
