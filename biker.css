@@ -1,8 +1,8 @@
 body {
     background-image: url(mikkel-bech-yjAFnkLtKY0-unsplash.jpg);
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
@@ -10,26 +10,10 @@ body {
 html {
     height: 100%;
 }
-h1 {
-    color: white;
-    margin-top: 125px;
-}
 
-.child-span {
+#mainNavbar .navbar-nav .nav-link:hover {
     color: green;
-}
-
-
-p {
-    color: #a5a5a5;
-    font-size: small;
-}
-
-.btn {
-    font-weight: bold;
-}
-#mainNavbar .nav-item:hover {
-    color: green;
+    cursor: pointer;
 }
 
 #mainNavbar .active {
@@ -41,3 +25,40 @@ p {
     outline: none;
     color: white;
 }
+
+#first-section {
+    height: 20%;
+}
+
+h1:first-of-type {
+    color: white;
+    margin-top: 125px;
+}
+
+.child-span {
+    color: green;
+}
+
+p {
+    color: #a5a5a5;
+    font-size: small;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+
+#about {
+border-radius:  25px;
+
+}
+
+#second-section {
+    height: 20%;
+    background-color: white;
+}
+
+/* .navbar-nav a:visited {
+cursor: none;
+} */
