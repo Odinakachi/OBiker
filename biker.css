@@ -27,12 +27,12 @@ html {
 }
 
 #first-section {
-    height: 20%;
+    margin-bottom: 245px;
 }
 
 h1:first-of-type {
     color: white;
-    margin-top: 125px;
+    margin-top: 180px;
 }
 
 .child-span {
@@ -51,11 +51,14 @@ p {
 
 #about {
 border-radius:  25px;
+}
 
+#about-us {
+    box-sizing: border-box;
+    width: 100%;
 }
 
 #second-section {
-    height: 20%;
     background-color: white;
 }
 
