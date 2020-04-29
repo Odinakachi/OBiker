@@ -44,23 +44,53 @@
   </section>
   <section>
     <div class="container-fluid mt-5" id="second-section">
-      <div class="row justify-content-center mt-5" id="about-us">
-        <div class="row mt-5">
+      <div class="row justify-content-center" id="about-us">
+        <div class="row justify-content-center mt-5">
           <div class="col-5">
-            <p>&mdash About us</p>
-            <h1 class="display-4 text-dark mt-0">Bicycles are our work, but also our passion.</h1>
+            <p><footer class="blockquote-footer">About us</footer></p>
+            <h1 class="display-4 text-dark mt-0" id="bicycle-passion">Bicycles are our work, but also <span id="passion">our passion</span>.</h1>
           </div>
           <div class="col-5">
-
+            <div class="row justify-content-start">
+              <div class="col mt-3">
+                <h1 class="display-4 text-dark mt-0 num">12</h1>
+                <p class="special">Years of experience</p>
+              </div>
+              <div class="col mt-3">
+                <h1 class="display-4 text-dark mt-0 num">8</h1>
+                <p class="special">Friends & specialists in the team</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center"></div>
+      <div class="row justify-content-center">
+        <div class="col mt-5">
+          <div id="par-image1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, qui distinctio. Perferendis aliquam possimus minima magni totam nemo qui consequuntur rem eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, qui distinctio. Perferendis aliquam possimus minima magni totam nemo .</p>
+            <button class="btn-lg btn-success">Learn more</button>
+          </div>        
+        </div>
+        <div class="col item-image1">
+          <img src="markus-spiske-WUehAgqO5hE-unsplash.jpg" alt="">
+        </div>
+      </div>
     </div>
   </section>  
     <!-- <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@bechbox?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Mikkel Bech"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Mikkel Bech</span></a> -->
 
   <script src="jquery-3.3.1.slim.min.js"></script>
   <script src="bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+  </script>
+
 </body>
 </html>

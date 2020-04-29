@@ -15,6 +15,10 @@ html {
     color: green;
     cursor: pointer;
 }
+#mainNavbar .navbar-nav .nav-link {
+    color: whitesmoke;
+    cursor: pointer;
+}
 
 #mainNavbar .active {
     color: green;
@@ -39,7 +43,7 @@ h1:first-of-type {
     color: green;
 }
 
-p {
+#content p {
     color: #a5a5a5;
     font-size: small;
 }
@@ -53,15 +57,61 @@ p {
 border-radius:  25px;
 }
 
-#about-us {
+/* #about-us {
     box-sizing: border-box;
     width: 100%;
-}
+} */
 
 #second-section {
     background-color: white;
 }
 
+p {
+font-size: 1rem;
+}
+
+.blockquote-footer {
+    color: black;
+    font-size: 1rem; 
+}
+
+#bicycle-passion {
+    color: black;
+    font-weight: bold;
+}
+
+#passion {
+    color: green;
+}
+
+.num {
+    font-size: 8rem;
+}
+
+.special {
+    color: green;
+    /* text-align: left; */
+}
+div.item-image1 {
+    margin: 100px;
+}
+
+div.item-image1 * {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: none;
+}
+
+#par-image1 {
+    margin-top: 52px;
+    margin-left: 70px;
+    width: 400px;
+}
+
+.navbar.scrolled {
+    background: rgba(2,2,2,.9);
+    transition: background 500ms;
+}
 /* .navbar-nav a:visited {
 cursor: none;
 } */
